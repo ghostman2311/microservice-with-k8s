@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: posts
-          image: nikhil23113232/test:latest
+          image: nikhil23113232/posts:latest
 
 ---
 apiVersion: v1
