@@ -73,3 +73,26 @@
 4. Update the post-depl as well
    ![alt text](image-10.png)
 
+## How to communicate between services
+
+1. To communicate with event with event bus we need to do it like this
+   ![alt text](image-11.png)
+
+## Updating Services address
+
+1. Change the address in posts and event bus.
+
+# 17 May
+
+## Updating services address(continued)
+
+1. Build new image for post and event bus
+2. Push it to docker hub
+3. restart the deployment.
+
+# 18 May
+
+## Verifying the communication
+
+1. run kubectl get services and copy the node port
+2. Now check the logs for each container if they are connected or not
